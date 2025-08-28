@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sushi menu practice page with KES placeholder prices." />
   <title>Sushi Menu</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -13,9 +14,8 @@
   </header>
 
   <main class="menu" id="menu">
-    <!-- Sections will be filled incrementally in next commits -->
-    <section class="menu-card" id="nigiri" aria-labelledby="nigiri-title">
-      <h2 class="section-title" id="nigiri-title">Nigiri (per piece)</h2>
+    <section class="menu-card" id="nigiri">
+      <h2 class="section-title">Nigiri (per piece)</h2>
       <ul class="item-list">
         <li class="item">
           <div class="line">
@@ -62,8 +62,8 @@
       </ul>
     </section>
 
-    <section class="menu-card" id="maki" aria-labelledby="maki-title">
-      <h2 class="section-title" id="maki-title">Classic Rolls (Maki)</h2>
+    <section class="menu-card" id="maki">
+      <h2 class="section-title">Classic Rolls (Maki)</h2>
       <ul class="item-list">
         <li class="item">
           <div class="line">
@@ -103,8 +103,8 @@
       </ul>
     </section>
 
-    <section class="menu-card" id="sashimi" aria-labelledby="sashimi-title">
-      <h2 class="section-title" id="sashimi-title">Sashimi</h2>
+    <section class="menu-card" id="sashimi">
+      <h2 class="section-title">Sashimi</h2>
       <ul class="item-list">
         <li class="item">
           <div class="line">
@@ -137,8 +137,8 @@
       </ul>
     </section>
 
-    <section class="menu-card" id="specialty" aria-labelledby="specialty-title">
-      <h2 class="section-title" id="specialty-title">Specialty Rolls</h2>
+    <section class="menu-card" id="specialty">
+      <h2 class="section-title">Specialty Rolls</h2>
       <ul class="item-list">
         <li class="item">
           <div class="line">
@@ -166,11 +166,7 @@
   </main>
 
   <footer class="site-footer">
-    <small>&copy; <span id="year"></span> Sushi Demo Menu. All prices are placeholders in KES.</small>
+    <small>&copy; 2025 Sushi Demo Menu. All prices are placeholders in KES.</small>
   </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
