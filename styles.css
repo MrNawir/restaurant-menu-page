@@ -81,7 +81,7 @@ h3 {
 .menu-legend h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: #fff;
+  color: #000000;
   font-size: 1.1rem;
 }
 
@@ -98,7 +98,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #fff;
+  color: #000000;
 }
 
 .legend-item i {
