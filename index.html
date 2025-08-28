@@ -4,13 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Sushi menu practice page with KES placeholder prices." />
-  <title>Sushi Menu</title>
+  <title>The Sushi Place</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css" />
 </head>
 <body>
   <header class="site-header" id="top">
-    <h1 class="title">Sushi Menu</h1>
-    <p class="subtitle">Simple, clean, and readable. Prices in KES (placeholder).</p>
+    <h1 class="title">The Sushi Place</h1>
+    <p class="subtitle">Fresh sushi, fresh flavors.</p>
   </header>
 
   <main class="menu" id="menu">
@@ -26,10 +27,10 @@
         </li>
         <li class="item">
           <div class="line">
-            <span class="item-title">Tuna <span class="unit" data-size="1 pc"></span></span>
+            <span class="item-title">Spicy Tuna <i class="nf nf-md-chili_mild"></i> <span class="unit" data-size="1 pc"></span></span>
             <span class="item-price" aria-label="price">KES 380</span>
           </div>
-          <p class="item-desc">Lean tuna slice paired with wasabi and shari.</p>
+          <p class="item-desc">Spicy tuna mixture with chili sauce, topped with sriracha mayo.</p>
         </li>
         <li class="item">
           <div class="line">
@@ -47,10 +48,10 @@
         </li>
         <li class="item">
           <div class="line">
-            <span class="item-title">Eel (Unagi) <span class="unit" data-size="1 pc"></span></span>
+            <span class="item-title">Spicy Eel (Unagi) <i class="nf nf-md-chili_mild"></i> <span class="unit" data-size="1 pc"></span></span>
             <span class="item-price" aria-label="price">KES 450</span>
           </div>
-          <p class="item-desc">Grilled freshwater eel with a touch of tare.</p>
+          <p class="item-desc">Grilled eel with spicy mayo and a touch of wasabi.</p>
         </li>
         <li class="item">
           <div class="line">
@@ -63,14 +64,42 @@
     </section>
 
     <section class="menu-card" id="maki">
-      <h2 class="section-title">Classic Rolls (Maki)</h2>
+      <h2 class="section-title">Sushi Rolls (Maki)</h2>
       <ul class="item-list">
+        <li class="item special">
+          <div class="line">
+            <span class="item-title">Dragon Roll <i class="nf nf-md-chef_hat"></i> <span class="unit" data-size="8 pc"></span></span>
+            <span class="item-price" aria-label="price">KES 1,800</span>
+          </div>
+          <p class="item-desc">Eel, cucumber, topped with avocado and sauce.</p>
+        </li>
+        <li class="item special">
+          <div class="line">
+            <span class="item-title">Rainbow Roll <i class="nf nf-md-chef_hat"></i> <span class="unit" data-size="8 pc"></span></span>
+            <span class="item-price" aria-label="price">KES 1,700</span>
+          </div>
+          <p class="item-desc">California base topped with assorted fish.</p>
+        </li>
+        <li class="item special">
+          <div class="line">
+            <span class="item-title">Volcano Roll <i class="nf nf-md-chef_hat"></i> <span class="unit" data-size="8 pc"></span></span>
+            <span class="item-price" aria-label="price">KES 1,600</span>
+          </div>
+          <p class="item-desc">Baked roll with spicy seafood topping.</p>
+        </li>
         <li class="item">
           <div class="line">
             <span class="item-title">California Roll <span class="unit" data-size="8 pc"></span></span>
             <span class="item-price" aria-label="price">KES 950</span>
           </div>
           <p class="item-desc">Crab stick, avocado, and cucumber.</p>
+        </li>
+        <li class="item">
+          <div class="line">
+            <span class="item-title">Spicy California Roll <i class="nf nf-md-chili_mild"></i> <span class="unit" data-size="8 pcs"></span></span>
+            <span class="item-price" aria-label="price">KES 950</span>
+          </div>
+          <p class="item-desc">Spicy crab, avocado, and cucumber with sriracha mayo.</p>
         </li>
         <li class="item">
           <div class="line">
@@ -137,36 +166,21 @@
       </ul>
     </section>
 
-    <section class="menu-card" id="specialty">
-      <h2 class="section-title">Specialty Rolls</h2>
-      <ul class="item-list">
-        <li class="item">
-          <div class="line">
-            <span class="item-title">Dragon Roll <span class="unit" data-size="8 pc"></span></span>
-            <span class="item-price" aria-label="price">KES 1,800</span>
-          </div>
-          <p class="item-desc">Eel, cucumber, topped with avocado and sauce.</p>
-        </li>
-        <li class="item">
-          <div class="line">
-            <span class="item-title">Rainbow Roll <span class="unit" data-size="8 pc"></span></span>
-            <span class="item-price" aria-label="price">KES 1,700</span>
-          </div>
-          <p class="item-desc">California base topped with assorted fish.</p>
-        </li>
-        <li class="item">
-          <div class="line">
-            <span class="item-title">Volcano Roll <span class="unit" data-size="8 pc"></span></span>
-            <span class="item-price" aria-label="price">KES 1,600</span>
-          </div>
-          <p class="item-desc">Baked roll with spicy seafood topping.</p>
-        </li>
-      </ul>
-    </section>
   </main>
 
   <footer class="site-footer">
-    <small>&copy; 2025 Sushi Demo Menu. All prices are placeholders in KES.</small>
+    <div class="menu-legend">
+      <h3>Menu Legend</h3>
+      <div class="legend-list">
+        <div class="legend-item">
+          <i class="nf nf-md-chili_mild"></i> <span>Spicy - Contains hot/spicy ingredients</span>
+        </div>
+        <div class="legend-item">
+          <i class="nf nf-md-chef_hat"></i> <span>Chef's Special - Seasonal or special preparation</span>
+        </div>
+      </div>
+    </div>
+    <small>&copy; 2025 The Sushi Place. Created by Ibrahim.</small>
   </footer>
 </body>
 </html>
