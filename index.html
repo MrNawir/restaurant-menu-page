@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sushi Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <h1 class="title">Sushi Menu</h1>
+    <p class="subtitle">Simple, clean, and readable. Prices in KES (placeholder).</p>
+  </header>
+
+  <main class="menu" id="menu">
+    <!-- Sections will be filled incrementally in next commits -->
+    <section class="menu-card" id="nigiri" aria-labelledby="nigiri-title">
+      <h2 class="section-title" id="nigiri-title">Nigiri (per piece)</h2>
+      <ul class="item-list">
+        <!-- items will be added -->
+      </ul>
+    </section>
+
+    <section class="menu-card" id="maki" aria-labelledby="maki-title">
+      <h2 class="section-title" id="maki-title">Classic Rolls (Maki)</h2>
+      <ul class="item-list">
+        <!-- items will be added -->
+      </ul>
+    </section>
+
+    <section class="menu-card" id="sashimi" aria-labelledby="sashimi-title">
+      <h2 class="section-title" id="sashimi-title">Sashimi</h2>
+      <ul class="item-list">
+        <!-- items will be added -->
+      </ul>
+    </section>
+
+    <section class="menu-card" id="specialty" aria-labelledby="specialty-title">
+      <h2 class="section-title" id="specialty-title">Specialty Rolls</h2>
+      <ul class="item-list">
+        <!-- items will be added -->
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; <span id="year"></span> Sushi Demo Menu. All prices are placeholders in KES.</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
